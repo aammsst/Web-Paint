@@ -1,10 +1,10 @@
 html{
-    background-color: #222;
+    min-width: 350px;
+    min-height: 100%;
 }
 
-.title{
-    color: #ebf6f7;
-    text-align: center;
+h1 {
+    margin: 100px auto 25px;
 }
 
 .webPaint
@@ -16,24 +16,21 @@ html{
     margin-top: 10px;
 }
 
-#webPaint
-{
+#webPaint{
     background: #ebf6f7;
     border: solid 3px #48e;
 }
 
-.webPaint div
-{
+.webPaint div{
     margin: auto;
+    justify-content: center;
     margin-top: 10px;
 }
 
-#color
-{
+#color{
     margin-right: 100px;
 }
 
-.caja15
-{
-    user-select: none;
+#lw{
+    fill: #0b1716;
 }
